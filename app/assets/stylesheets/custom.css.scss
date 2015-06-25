@@ -161,7 +161,7 @@ input, textarea, select, .uneditable-input {
 }
 
 input {
-  height: auto 
+  height: auto !important;
 }
 
 #error_explanation {
@@ -177,5 +177,4 @@ input {
   .form-control {
     color: $state-danger-text;
   }
-sign-up
 }
