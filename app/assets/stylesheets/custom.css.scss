@@ -14,8 +14,10 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
+
   padding-top: 60px;
-}
+
+  }
 
 section {
   overflow: auto;
@@ -43,6 +45,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: #fed136;
 }
 
 h2 {
@@ -51,7 +54,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: #858832;
 }
 
 p {
@@ -77,21 +80,32 @@ p {
   }
 }
 
+.btn-primary {
+    border-color: #fed136;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+}
+
 /* footer */
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
+  color: #fff;;
   a {
-    color: $gray;
+    color: white;
     &:hover {
-      color: $gray-darker;
+      color: #fff;;
     }
   }
   small {
     float: left;
+    color: white;
   }
   ul {
     float: right;
