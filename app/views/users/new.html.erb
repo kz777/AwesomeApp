@@ -3,13 +3,17 @@
 body {
   background-image: url(../assets/header-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;}
+  
+.whitel {
+  color: white;
 }
+
 </style>
 <h1>Sign up</h1>
 
 <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+  <div class="col-md-6 col-md-offset-3 whitel">
     <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
 
